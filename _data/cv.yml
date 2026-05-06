@@ -1,97 +1,146 @@
-- title: General Information
-  type: map
+- title: Summary
+  type: list
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - Interpretable deep learning researcher focused on strengthening the methodological foundations of interpretable neural networks and cancer risk prediction in mammography.
+    - Recent work investigates how angular relationships in latent representations influence fine-grained image recognition, revealing mechanistic insights uniquely accessible to interpretable models.
+    - Develops visualization frameworks and evaluation protocols that rigorously link learned concepts to model decisions.
+    - Long-term goal&#58; advance foundational standards for ante-hoc interpretability in high-stakes domains.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in Computer Science
+      institution: Duke University, Durham, NC
+      year: 2026 – Present
+    - title: MS in Computer Science
+      institution: Duke University, Durham, NC
+      year: 2024 – 2026 (Expected)
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA&#58; 3.96
+    - title: BS in Computer Science
+      institution: Lehigh University, Bethlehem, PA
+      year: 2018 – 2022
       description:
-        - Description 1.
-        - Description 2.
+        - Major GPA&#58; 3.97; Cumulative GPA&#58; 3.79
+        - Minors&#58; Data Science, Entrepreneurship
 
-- title: Experience
+- title: Honors & Awards
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
+    - year: 2024
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Adobe GEM Fellowship — Adobe (full MS graduate tuition)
+        - Sloan Affiliate — Duke University
+    - year: 2022
       items:
-        - Max Planck Medal
+        - Magna Cum Laude — Lehigh University
+    - year: 2021
+      items:
+        - Tau Beta Pi Honor Society
+        - Upsilon Pi Epsilon Honor Society
+    - year: 2020
+      items:
+        - Baker Entrepreneurial Fellow — Lehigh University (nominated by faculty)
+    - year: 2019
+      items:
+        - 1st Place Winner, Eureka! Ventures Competition — Baker Institute
 
-- title: Academic Interests
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Interpretable Machine Learning Lab, Duke University (advisor&#58; Dr. Cynthia Rudin)
+      year: Jan 2025 – Present
+      description:
+        - Developing a novel initialization strategy for interpretable neural networks, reducing over-regularization of explanations.
+        - Curating full-field digital mammography (FFDM) datasets for any-pathology breast cancer risk prediction.
+    - title: Research Assistant
+      institution: Nano-Human Interfaces Laboratory, Lehigh University (advisors&#58; Dr. Brian Chen, Dr. Martin Harmer)
+      year: May 2021 – May 2022
+      description:
+        - Predicted anomalies in material microstructures using graph convolutional neural networks with 84% accuracy.
+        - Developed a pipeline for Monte Carlo simulations on a high-performance computing cluster.
+    - title: Research Assistant
+      institution: Learning and Optimization on Networks and Graphs Laboratory, Lehigh University (advisor&#58; Dr. Liang Cheng)
+      year: Apr 2020 – May 2021
+      description:
+        - Introduced 10 novel game-theoretical incentive mechanisms for federated-learning crowdsensing platforms.
+        - Developed and analyzed a C++ crowdsensing simulation evaluating incentive mechanisms across 11 million scenarios.
+    - title: Research Experience for Undergraduates (REU)
+      institution: ATLSS Engineering Research Center, Lehigh University
+      year: May 2020 – Aug 2020
+      description:
+        - Deployed a MobileNet-SSD model to detect 8 road-degradation classes with 60% confidence and geotagged outputs.
+        - Contributed to the published technical report and presented at the CIAMTIS conference.
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Data Scientist Intern — Firefly GenAI Product
+      institution: Adobe Inc, San Jose, CA
+      year: May 2025 – Aug 2025
+      description:
+        - Implemented a user segmentation framework for flagship generative-AI products serving 30M users and 40B prompts.
+        - Developed a novel prompt-complexity metric for analyzing the linguistic complexity of prompts.
+        - Collaborated with business partners on user win-back campaigns and A/B-test causal study opportunities.
+    - title: Data Scientist Intern — Express Product
+      institution: Adobe Inc, San Francisco, CA
+      year: May 2024 – Aug 2024
+      description:
+        - Built interpretable data-mining models for customer-satisfaction (CSAT) patterns across 1PB of behavioral data.
+        - Identified five product recommendations targeting a 12% lift in customer retention.
+        - Deployed Amplitude dashboards for real-time monitoring of project OKRs.
+    - title: Technology Consultant
+      institution: Ernst & Young LLP, New York City, NY
+      year: Jul 2022 – Apr 2024
+      description:
+        - Designed system diagrams for a multi-billion-dollar client across 6 product verticals on a monthly release cadence.
+        - Collaborated with 10 developers to build an event-driven model-execution platform on serverless AWS.
+        - Developed an ETL-pipeline proof-of-concept for onboarding financial data into internal risk models.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Graduate Teaching Assistant — Theory & Algorithms for Machine Learning (CS 671)
+      institution: Duke University, Durham, NC
+      year: Aug 2025 – Dec 2025
+      description:
+        - Designed homework problems, quizzes, and exam questions covering fundamental machine-learning topics.
+        - Led lectures on neural networks and ran weekly discussion groups with office hours.
+    - title: Graduate Teaching Assistant — Data Science (CS 526)
+      institution: Duke University, Durham, NC
+      year: Aug 2024 – May 2025
+      description:
+        - Led lectures on model regularization with interactive Jupyter-notebook demonstrations.
+        - Mentored 8 teams of graduate students in data-driven analysis and organized the final-project judge panel.
+    - title: Undergraduate Teaching Assistant — Software Engineering (CSE 216)
+      institution: Lehigh University, Bethlehem, PA
+      year: Jan 2021 – May 2022
+      description:
+        - Mentored 15 teams (≈75 students) of upper-class students in weekly Agile stand-ups.
+        - Facilitated working sessions on OAuth 2.0, design patterns, and database design for audiences of 100.
+    - title: Undergraduate Teaching Assistant — Applied Engineering Computer Methods (ENGR 010)
+      institution: Lehigh University, Bethlehem, PA
+      year: Aug 2019 – May 2020
+      description:
+        - Led 8 recitations of ~40 students each, covering Arduino programming for digital/analog I/O devices.
+        - Graded ~80 weekly code submissions and judged 20 final-project submissions for water pumps and assembly lines.
+
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, PyTorch, TensorFlow, PySpark, NumPy, Databricks, R, SQL, Weights & Biases
+    - title: CI/CD
       items:
-        - Description 1.
-        - Description 2.
+        - Docker, Kubernetes, Jenkins, GitLab, Proxmox, OpenShift, AWS CodePipeline, Grafana
+    - title: Application
+      items:
+        - Git, C++, JavaScript, Bootstrap, TypeScript, React, Prime React, Plotly.js, Vue, Java, NGINX
 
-- title: Other Interests
+- title: Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Interpretable Machine Learning, AI Safety, the Manifold Hypothesis.
+    - Coffee, rock climbing, Spanish classical guitar.
